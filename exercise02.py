@@ -14,3 +14,17 @@ def fibonacci(n):
 
 print(fibonacci(10))
     
+
+#for loop   
+
+def fibonacci(n):
+    fib_list = [1,1,2] 
+    while (n - 3) > 0:
+        fib_list.append(fib_list[-1] + fib_list[-2])
+        n = n - 1 
+    return (fib_list[-1])
+    
+print(fibonacci(6))
+
+    
+    
