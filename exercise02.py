@@ -1,4 +1,14 @@
-# Exercise Two
-# Write a simple program that finds the value at the nth position in the Fibonacci sequence
+def fibonacci(n): 
+    if n <= 0:
+        return "Value does not exist"
+    elif n == 1:
+        return 1
+    elif n == 2:
+        return 1
+    elif n == 3:
+        return 2
+    else: 
+        return fibonacci(n-1) + fibonacci(n-2)  #formula to find the nth value 
 
-print("The value at the 6th postion in the Fibonacci sequence is 8")
+print(fibonacci(10))
+    
