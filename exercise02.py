@@ -15,7 +15,7 @@ def fibonacci(n):
 print(fibonacci(10))
     
 
-#for loop   
+#while loop   
 
 def fibonacci(n):
     fib_list = [1,1,2] 
